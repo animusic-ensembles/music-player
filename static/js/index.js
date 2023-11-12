@@ -29,7 +29,7 @@ $(document).ready(function() {
     });
 
     function setMusic() {
-        $(".title-text").text(shuffledPlaylist[currentTrack]);
+        $(".title-text").text(shuffledPlaylist[currentTrack].replace("_", "."));
         setScrollingText();
         $player[0].src = getPath(shuffledPlaylist[currentTrack]);
         $player[0].load();
@@ -49,7 +49,7 @@ $(document).ready(function() {
         $(".title-text").removeClass("scrolling");
 
         if($(".song-title")[0].scrollWidth > $(".song-title").innerWidth()) {
-            $(".song-info")[0].style.setProperty("--duplicate-title", JSON.stringify(shuffledPlaylist[currentTrack]));
+            $(".song-info")[0].style.setProperty("--duplicate-title", JSON.stringify(shuffledPlaylist[currentTrack].replace("_", ".")));
             $(".song-title").addClass("scrolling-wrapper");
             $(".title-text").addClass("scrolling");
         }
