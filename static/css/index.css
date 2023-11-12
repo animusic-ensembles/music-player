@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Font";
+    src: url("../fonts/Dekko.ttf") format("truetype");
+}
+
 :root {
-    font-family: 'Patrick Hand', sans-serif;
+    font-family: "Font", sans-serif;
     --background-color: #193167;
     --highlight-color: #f8f8f8;
     --faded-color: #0f1e3e;
@@ -67,7 +72,7 @@ html, body {
     align-items: center;
 }
 .title-text {
-    font-size: 70px;
+    font-size: 64px;
     white-space: nowrap;
     width: fit-content;
 }
