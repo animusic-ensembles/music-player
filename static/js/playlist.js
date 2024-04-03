@@ -7,12 +7,16 @@ export const playlist = [
     "Grand Blue",
     "Haru Urara",
     "Hikaru Nara",
+    "Isabella's Lullaby",
     "Kuchizuke Diamond",
+    "Lonely Rolling Star",
     "Merry-Go-Round of Life",
     "Mr_ Music",
     "Oto No Naru Hou E",
     "Qingce Village",
     "Saga Jihen",
+    "Snake Eater",
+    "Snow Halation",
     "Tokyo Autumn Session",
     "Wild Side"
 ];
